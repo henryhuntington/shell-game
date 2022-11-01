@@ -1,27 +1,26 @@
-## The Golden Rule:
+![wireframe](./assets/shell%20game%20wireframe.png)
 
-🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
+-div
+-h1
 
-If you work on more than one feature at a time, you are guaranteed to multiply your bugs and your anxiety.
+-section
+-div x3
+-img
+-button
 
-## Making a plan
+    Code Quality / Grading Requirements
 
-1. **Make a drawing of your app. Simple "wireframes"**
-1. **Look at the drawing and name the HTML elements you'll need to realize your vision**
-1. **Look at the drawing and imagine using the app. What _state_ do you need to track?**
-1. **For each HTML element ask: Why do I need this? (i.e., "we need div to display the results in")**
-1. **Once we know _why_ we need each element, think about how to implement the "Why" as a "How" (i.e., `resultsEl.textContent = newResults`)**
-1. **Find all the 'events' (user clicks, form submit, on load etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change? Does any DOM update?**
-1. **Think about how to validate each of your features according to a Definition of Done. (Hint: console.log usually helps here.)**
-1. **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
+[]Open PR from dev to main with your changes
+[]Preview deploy from Netlify showing on your PR
+[]Clear commit history
+[]Good naming conventions and code is easy to read
+[]Effective use of CSS and semantic HTML
 
-Additional considerations:
+    Code Requirements
 
--   Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
--   Consider your data model.
-    -   What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need?
-    -   What are the key/value pairs?
-    -   What arrays might you need?
-    -   What needs to live in a persistence layer?
--   Is there some state we need to initialize?
--   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+[]On clicking a hiding place button, the total number of guesses increment
+[]On clicking the correct shell button, the total number of correct guesses increment
+[]On clicking the incorrect shell button, the number of incorrect guesses increments
+[]On click, see the ball revealed, clearing out the previous correct guess style
+[]displayResults function for displaying the updated state
+[]reset function for resetting the styles that display the correct location
