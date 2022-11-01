@@ -33,3 +33,7 @@ header .logo {
 main {
     padding: 20px;
 }
+
+.shell {
+    height: 125px;
+}
