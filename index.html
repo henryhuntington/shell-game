@@ -32,16 +32,27 @@
             <div>
                 <h1>Welcome to the Shell Game</h1>
             </div>
-            <section>
-                <div>
-                    <img src="./assets/shell.png" class="shell" />
+            <section class="shells">
+                <div class="shell">
+                    <img src="./assets/shell.png" id="shell-1" />
+                    <img src="./assets/pearl.png" id="pearl-1" />
+                    <button id="button-1">Guess</button>
                 </div>
-                <div>
-                    <img src="./assets/shell.png" class="shell" />
+                <div class="shell">
+                    <img src="./assets/shell.png" id="shell-2" />
+                    <img src="./assets/pearl.png" id="pearl-2" />
+                    <button id="button-2">Guess</button>
                 </div>
-                <div>
-                    <img src="./assets/shell.png" class="shell" />
+                <div class="shell">
+                    <img src="./assets/shell.png" id="shell-3" />
+                    <img src="./assets/pearl.png" id="pearl-3" />
+                    <button id="button-3">Guess</button>
                 </div>
+            </section>
+            <section class="stats">
+                <div class="stat">Wins: <span id="wins">0</span></div>
+                <div class="stat">Losses: <span id="losses">0</span></div>
+                <div class="stat">Total: <span id="total">0</span></div>
             </section>
         </main>
     </body>

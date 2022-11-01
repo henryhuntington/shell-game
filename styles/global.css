@@ -34,6 +34,21 @@ main {
     padding: 20px;
 }
 
+.shells {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
 .shell {
-    height: 125px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.shells img {
+    height: 225px;
 }

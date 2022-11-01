@@ -8,7 +8,7 @@
 -img
 -button
 
-        Code Quality / Grading Requirements
+    Code Quality / Grading Requirements
 
 []Open PR from dev to main with your changes
 []Preview deploy from Netlify showing on your PR
